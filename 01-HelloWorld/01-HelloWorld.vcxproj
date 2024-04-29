@@ -137,6 +137,8 @@
   <ItemGroup>
     <ClCompile Include="01-HelloWorld.cpp" />
     <ClCompile Include="01.3-Variables.cpp" />
+    <ClCompile Include="01.5-Iostream.cpp" />
+    <ClCompile Include="1.11-DoubleIntegerProgram.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

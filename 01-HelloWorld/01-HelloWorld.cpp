@@ -4,17 +4,20 @@
 #include "pch.h"
 #include <iostream>
 #include <limits>
+#include <string>
 
 int main()
 {
-    std::cin.clear();                                                       // Read any error flags
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');     // Ignore any characers in the input buffer until we find an enter
-    std::cin.get();                                                         // Get one more character from the user
 
-    std::cout << "Hello world!" << std::endl;
+    //std::cin.clear();                                                       // Read any error flags
+    //std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');     // Ignore any characers in the input buffer until we find an enter
+    //std::cin.get();                                                         // Get one more character from the user
+
+    //std::cout << "Hello world!" << std::endl;
 
     return 0;
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu

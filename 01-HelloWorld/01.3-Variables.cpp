@@ -1,17 +1,30 @@
 #include "pch.h"
 #include <iostream>
 #include <limits>
+using namespace std;
 
-int a, b = 0;
-double c = 0;
 
-int main()
+class variable_intro
 {
-    std::cin.clear();                                                       // Read any error flags
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');     // Ignore any characers in the input buffer until we find an enter
-    std::cin.get();                                                         // Get one more character from the user
 
-    std::cout << "Hello world!" << std::endl;
+    int d{ 4 };         // Direct-List Initialization   
+    int e = { 5 };      // Copy-List Initialization
+    int f{};            // Value Initialization
 
-    return 0;
-}
+    double c = 0;       // Copy Initialization
+
+    string rand = "";   // Default Initialization
+    int a = 1;
+    int b = 2;
+
+    char g;
+
+    [[maybe_unused]] double pi{ 3.14159 };
+    [[maybe_unused]] double gravity{ 9.8 };
+    [[maybe_unused]] double phi{ 1.61803 };
+
+    //std::cout << a << std::endl;
+    //std::cout << b << std::endl;
+
+    //return 0;
+};
