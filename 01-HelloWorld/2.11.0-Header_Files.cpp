@@ -1,0 +1,20 @@
+#pragma once
+
+#include "pch.h"
+#include "add.h" // Insert contents of add.h at this point.  Note use of double quotes here.
+#include <iostream>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// ***** WAYS TO DECLARE HEADERS IN VARIOUS SUB-FOLDERS ***** //
+
+//#include "headers/myHeader.h"
+//#include "../moreHeaders/myOtherHeader.h"
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//int main()
+//{
+//    std::cout << "The sum of 3 and 4 is " << add(3, 4) << '\n';
+//    return 0;
+//}

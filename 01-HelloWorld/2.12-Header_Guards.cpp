@@ -1,0 +1,30 @@
+#include "pch.h"
+#include <iostream>
+#include <limits>
+#include <string>
+#include "add.h"
+#include "square.h"
+
+#pragma once
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// ***** PRAGMA ONCE CODED-AREA EXAMPLE ***** //
+
+// your code here
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// ***** Used in conjunction with Square.cpp & SQUARE.H ***** //
+
+
+//int getSquareSides() // actual definition for getSquareSides
+//{
+//    return 4;
+//}
+//
+//int getSquarePerimeter(int sideLength)
+//{
+//    return sideLength * getSquareSides();
+//}

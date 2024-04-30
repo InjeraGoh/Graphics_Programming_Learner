@@ -13,27 +13,96 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Chapter 1: Basics">
+      <UniqueIdentifier>{92973e61-b13d-46a1-b439-d2c7a97e813c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter 2: Functions">
+      <UniqueIdentifier>{e96c62bd-c43b-4b21-a957-5f9fdca5f57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter 2: Functions\2.8 Multiple Files">
+      <UniqueIdentifier>{e0f4571d-fa7c-46c6-b8d8-fcaebdfb4a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter 2: Functions\2.11 Header Files">
+      <UniqueIdentifier>{68466b86-5c39-4ed3-a64e-0c3d69096545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter 2: Functions\2.12 Header Guards &amp; Pragma Once">
+      <UniqueIdentifier>{5a64d6e5-4f91-4caa-9e26-a6ca7e417665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter 2: Functions\END OF CHAPTER 2 QUIZ">
+      <UniqueIdentifier>{74288e22-4abf-4501-91fc-7730af0beb57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="01.3-Variables.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="01.5-Iostream.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="01-HelloWorld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="01.3-Variables.cpp">
+      <Filter>Source Files\Chapter 1: Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="01.5-Iostream.cpp">
+      <Filter>Source Files\Chapter 1: Basics</Filter>
+    </ClCompile>
     <ClCompile Include="1.11-DoubleIntegerProgram.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Chapter 1: Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="2.1-Intro_to_functions.cpp">
+      <Filter>Source Files\Chapter 2: Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2-Functions_Returning_Values.cpp">
+      <Filter>Source Files\Chapter 2: Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="2.3-Void_Functions.cpp">
+      <Filter>Source Files\Chapter 2: Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="2.4-Function_Parameters_and_Arguments.cpp">
+      <Filter>Source Files\Chapter 2: Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="2.7-Forward_Declarations.cpp">
+      <Filter>Source Files\Chapter 2: Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="2.8.0-Program_With_Multiple_Files.cpp">
+      <Filter>Source Files\Chapter 2: Functions\2.8 Multiple Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2.8.1_Add.cpp">
+      <Filter>Source Files\Chapter 2: Functions\2.8 Multiple Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2.10-Preprocessor.cpp">
+      <Filter>Source Files\Chapter 2: Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="2.11.0-Header_Files.cpp">
+      <Filter>Source Files\Chapter 2: Functions\2.11 Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2.11.1_Add.cpp">
+      <Filter>Source Files\Chapter 2: Functions\2.11 Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2.12-Header_Guards.cpp">
+      <Filter>Source Files\Chapter 2: Functions\2.12 Header Guards &amp; Pragma Once</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\Chapter 2: Functions\2.12 Header Guards &amp; Pragma Once</Filter>
+    </ClCompile>
+    <ClCompile Include="End_of_Chapter_Quiz.cpp">
+      <Filter>Source Files\Chapter 2: Functions\END OF CHAPTER 2 QUIZ</Filter>
+    </ClCompile>
+    <ClCompile Include="io.cpp">
+      <Filter>Source Files\Chapter 2: Functions\END OF CHAPTER 2 QUIZ</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="add.h">
+      <Filter>Source Files\Chapter 2: Functions\2.11 Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="square.h">
+      <Filter>Source Files\Chapter 2: Functions\2.12 Header Guards &amp; Pragma Once</Filter>
+    </ClInclude>
+    <ClInclude Include="io.h">
+      <Filter>Source Files\Chapter 2: Functions\END OF CHAPTER 2 QUIZ</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

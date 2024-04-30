@@ -1,16 +1,5 @@
-﻿  pch.cpp
-  01-HelloWorld.cpp
-  01.3-Variables.cpp
-C:\Users\gohjr\Downloads\Dolores\cmder\Graphics_Programming_Learner\01-HelloWorld\01.3-Variables.cpp(22,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
-  (compiling source file '/01.3-Variables.cpp')
-  
-C:\Users\gohjr\Downloads\Dolores\cmder\Graphics_Programming_Learner\01-HelloWorld\01.3-Variables.cpp(23,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
-  (compiling source file '/01.3-Variables.cpp')
-  
-C:\Users\gohjr\Downloads\Dolores\cmder\Graphics_Programming_Learner\01-HelloWorld\01.3-Variables.cpp(24,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
-  (compiling source file '/01.3-Variables.cpp')
-  
-  01.5-Iostream.cpp
-  1.11-DoubleIntegerProgram.cpp
+﻿  01-HelloWorld.cpp
+  End_of_Chapter_Quiz.cpp
+  io.cpp
   Generating Code...
   01-HelloWorld.vcxproj -> C:\Users\gohjr\Downloads\Dolores\cmder\Graphics_Programming_Learner\01-HelloWorld\x64\Debug\01-HelloWorld.exe
