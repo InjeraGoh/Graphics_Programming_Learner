@@ -150,6 +150,13 @@
     <ClCompile Include="2.7-Forward_Declarations.cpp" />
     <ClCompile Include="2.8.0-Program_With_Multiple_Files.cpp" />
     <ClCompile Include="2.8.1_Add.cpp" />
+    <ClCompile Include="3.5-More_Debugging_Tactics.cpp" />
+    <ClCompile Include="4.10-If_Else_Statements.cpp" />
+    <ClCompile Include="4.11-Char_Values.cpp" />
+    <ClCompile Include="4.12-Static_Cast.cpp" />
+    <ClCompile Include="4.6-Fixed_Width_Integers.cpp" />
+    <ClCompile Include="4.8-Floating Point Numbers.cpp" />
+    <ClCompile Include="4.9-Boolean_Values.cpp" />
     <ClCompile Include="End_of_Chapter_Quiz.cpp" />
     <ClCompile Include="io.cpp" />
     <ClCompile Include="pch.cpp">

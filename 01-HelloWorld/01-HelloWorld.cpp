@@ -2,14 +2,18 @@
 //
 
 #include "pch.h"
+//#include "add.h"
 //#include "io.h"
+#include <cstdint> // for fixed-width integers
+#include <iomanip> // for output manipulator std::setprecision()
 #include <iostream>
 #include <limits>
 #include <string>
-//#include "add.h"
 using namespace std;
 
-int main() {
+
+int main()
+{
 
 }
 

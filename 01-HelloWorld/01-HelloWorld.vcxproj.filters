@@ -31,6 +31,12 @@
     <Filter Include="Source Files\Chapter 2: Functions\END OF CHAPTER 2 QUIZ">
       <UniqueIdentifier>{74288e22-4abf-4501-91fc-7730af0beb57}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Chapter 3: Debugging">
+      <UniqueIdentifier>{6b2950b8-c8d6-46c1-89c8-9d6d316d244c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter 4: Data Types">
+      <UniqueIdentifier>{c822a65c-2b00-4871-aaf3-c64a0f079bbf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -89,6 +95,27 @@
     </ClCompile>
     <ClCompile Include="io.cpp">
       <Filter>Source Files\Chapter 2: Functions\END OF CHAPTER 2 QUIZ</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5-More_Debugging_Tactics.cpp">
+      <Filter>Source Files\Chapter 3: Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6-Fixed_Width_Integers.cpp">
+      <Filter>Source Files\Chapter 4: Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="4.8-Floating Point Numbers.cpp">
+      <Filter>Source Files\Chapter 4: Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="4.9-Boolean_Values.cpp">
+      <Filter>Source Files\Chapter 4: Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="4.10-If_Else_Statements.cpp">
+      <Filter>Source Files\Chapter 4: Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="4.11-Char_Values.cpp">
+      <Filter>Source Files\Chapter 4: Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="4.12-Static_Cast.cpp">
+      <Filter>Source Files\Chapter 4: Data Types</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
